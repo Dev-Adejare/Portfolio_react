@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 export default function Header() {
   return (
     <header>
-      <img src="/img/logo.png" alt="logo" />
+      {/* <img src="/img/logo.png" alt="logo" /> */}
       <nav>
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
