@@ -14,7 +14,7 @@ export default function Header() {
         <a href="https://www.linkedin.com/in/sodiq-kehinde-a38448296">
           <FaLinkedin />
         </a>
-        <a href="https://www.">
+        <a href="https://www.facebook.com/Hardejare91?mibextid=ZbWKwL">
           <FaFacebook />
         </a>
         <a href="https://github.com/Dev-Adejare">
