@@ -1,9 +1,13 @@
 import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import { DiAngularSimple } from "react-icons/di";
+
 
 export default function Header() {
   return (
     <header>
+      <DiAngularSimple />
+
       {/* <img src="/img/logo.png" alt="logo" /> */}
       <nav>
         <a href="#about">About</a>
