@@ -6,10 +6,11 @@ import { DiAngularSimple } from "react-icons/di";
 export default function Header() {
   return (
     <header>
-      <DiAngularSimple />
 
-      {/* <img src="/img/logo.png" alt="logo" /> */}
+         <DiAngularSimple /> <a href="" style={{color:'rgba(255,255,255,.6)', fontSize: '16px', textDecoration:'none'}}>ADE</a>
+     
       <nav>
+      
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
