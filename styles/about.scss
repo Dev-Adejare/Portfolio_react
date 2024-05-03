@@ -23,3 +23,54 @@ section#about p::before{
   position:relative;
   top:15px;
 }
+
+
+/* Tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+  section#about p {
+    padding-left: 30px;
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  section#about p::before {
+    width: 30px;
+    top: 10px;
+  }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+  section#about {
+    padding: 50px 0;
+  }
+
+  section#about p {
+    padding-left: 15px;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  section#about p::before {
+    width: 20px;
+    top: 5px;
+  }
+}
+
+/* Laptops and larger devices */
+@media only screen and (min-width: 1200px) {
+  section#about {
+    padding: 150px 0;
+  }
+
+  section#about p {
+    padding-left: 80px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  section#about p::before {
+    width: 60px;
+    top: 20px;
+  }
+}

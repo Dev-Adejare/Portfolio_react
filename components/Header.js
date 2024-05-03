@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
 
-         <DiAngularSimple /> <a href="" style={{color:'rgba(255,255,255,.6)', fontSize: '16px', textDecoration:'none'}}>ADE</a>
+         <DiAngularSimple /> <a href="" style={{color:'#FAC86B', fontSize: '20px', fontStyle:'Source Serif Pro', textDecoration:'none'}}>ADE</a>
      
       <nav>
       
